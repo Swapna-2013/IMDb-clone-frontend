@@ -1,0 +1,14 @@
+nav {
+    background-color: #121212;
+   
+}
+nav .nav-item .nav-link{
+    color: #fff;
+}
+/* nav .nav-item .nav-link .active */
+.container-fluid{
+    text-decoration: none;
+}
+.space1{
+    margin: 3px 10px;
+}
