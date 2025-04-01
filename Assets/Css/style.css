@@ -12,3 +12,15 @@ nav .nav-item .nav-link{
 .space1{
     margin: 3px 10px;
 }
+.deco{
+    background-color: rgba(44, 44, 44, 1);
+    border-radius: 18px;
+    width: 135px;
+}
+.deco:hover{
+    background-color: rgb(54, 54, 54);
+    transition: all 0.3s ease-in-out;
+}
+.card-color{
+    background-color: rgba(26,26, 26, 1);
+}
