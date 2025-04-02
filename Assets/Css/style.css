@@ -24,3 +24,28 @@ nav .nav-item .nav-link{
 .card-color{
     background-color: rgba(26,26, 26, 1);
 }
+.bar-height{
+    width: 23px;
+}
+.exclusive img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+.play{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+
+.exclusive{
+    position: relative;
+}
+.spacebar{
+    width: 380px;
+}
+.transform{
+    transform: rotate(45deg);
+}

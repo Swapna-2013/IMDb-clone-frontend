@@ -36,11 +36,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="dropdown">
-            <button class="btn btn-secondary " type="button"
+
+          <div class="dropdown bg-black">
+            <button class="btn text-white fw-bold d-flex  align-items-center" type="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-list fs-4"></i>
-              Movies
+              <i class="bi bi-list fs-3"></i>
+             <span> Movies</span>
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -49,7 +50,7 @@
             </ul>
           </div>
           <!-- search -->
-          <div class="input-group mb-3 w-50">
+          <div class="input-group w-50">
             <button class="btn btn-outline-secondary dropdown-toggle"
               type="button" data-bs-toggle="dropdown"
               aria-expanded="false">All</button>
@@ -63,14 +64,10 @@
             <input type="text" class="form-control"
               aria-label="Text input with dropdown button">
           </div>
-          <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-          <!-- /search  -->
-
+        
           <!-- nav -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <div class="spacebar ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#"> <i
                   class="bi bi-bookmark-plus-fill"></i> Watchlist</a>
@@ -80,6 +77,7 @@
             </li>
 
           </ul>
+         </div>
           <!-- /nav -->
         </div>
       </div>
@@ -172,8 +170,8 @@
               </div>
               <div>
                 <a href class="nav-link">
-                  <span><i class="bi bi-hand-thumbs-up"></i>100</span>
-                  <span><i class="bi bi-heart-fill"></i>200</span>
+                  <span><i class="bi bi-hand-thumbs-up"></i>105k</span>
+                  <span><i class="bi bi-heart-fill text-danger"></i>200k</span>
                 </a>
               </div>
             </div>
@@ -203,8 +201,8 @@
               </div>
               <div>
                 <a href class="nav-link">
-                  <span><i class="bi bi-hand-thumbs-up "></i>100</span>
-                  <span><i class="bi bi-heart-fill text-danger"></i>200</span>
+                  <span><i class="bi bi-hand-thumbs-up "></i>100k</span>
+                  <span><i class="bi bi-heart-fill text-danger"></i>200k</span>
                 </a>
               </div>
             </div>
@@ -213,6 +211,9 @@
         </div>
       </div>
     </div>
+<!-- carousel ends here -->
+
+
     <!-- photo section  -->
     <div class="container-fluid text-light mt-4">
       <h3>Most Popular Celebrities <i class="bi bi-chevron-right"></i></h3>
@@ -287,6 +288,8 @@
     </div>
     <!-- photo section ends -->
 
+
+
     <!-- card section -->
     <div class="container-fluid">
       <div class="text-warning">
@@ -313,7 +316,7 @@
               alt="Card image cap"
               class="card-img-top">
             <div class="card-body card-color text-light rounded-bottom d-flex flex-column ">
-              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+              <span><i class="bi bi-star-fill text-warning"></i> 8.9 <i
                   class="bi bi-star text-primary ms-3"></i></span>
               <h5 class="card-title mt-2 mb-4">One Piece live action Series</h5>
               <!-- <p class="card-text">Upcoming</p> -->
@@ -334,7 +337,7 @@
                       alt="Card image cap"
                       class="card-img-top">
                     <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
-                      <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                      <span><i class="bi bi-star-fill text-warning"></i> 9.1 <i
                           class="bi bi-star text-primary ms-3"></i></span>
                       <h5 class="card-title mt-2 mb-4">Death Note</h5>
                       <!-- <p class="card-text">Upcoming</p> -->
@@ -355,7 +358,7 @@
               alt="Card image cap"
               class="card-img-top">
             <div class="card-body card-color text-light rounded-bottom d-flex flex-column ">
-              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+              <span><i class="bi bi-star-fill text-warning"></i> 8.3 <i
                   class="bi bi-star text-primary ms-3"></i></span>
               <h5 class="card-title mt-2 mb-4">Ala Vaikuntapuramulo</h5>
               <!-- <p class="card-text">Upcoming</p> -->
@@ -377,7 +380,7 @@
                       alt="Card image cap"
                       class="card-img-top">
                     <div class="card-body card-color text-light rounded-bottom d-flex flex-column ">
-                      <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                      <span><i class="bi bi-star-fill text-warning"></i> 8.4 <i
                           class="bi bi-star text-primary ms-3"></i></span>
                       <h5 class="card-title mt-2 mb-4">Raajakumara</h5>
                       <!-- <p class="card-text">Upcoming</p> -->
@@ -398,7 +401,7 @@
               alt="Card image cap"
               class="card-img-top">
             <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
-              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+              <span><i class="bi bi-star-fill text-warning"></i> 8.9 <i
                   class="bi bi-star text-primary ms-3"></i></span>
               <h5 class="card-title mt-2 mb-4">Love me if u dare</h5>
               <!-- <p class="card-text">Upcoming</p> -->
@@ -435,6 +438,8 @@
 
       </div>
     </div>
+<!-- card section ends here -->
+
 
 
     <!-- bookmark section -->
@@ -452,6 +457,9 @@
         <a href="#" class="btn text-primary card-btn-style deco ">Watch Now</a>
       </div>
      </div>
+<!-- bookmark section ends here -->
+
+
 
 <!-- top 10 movies -->
 <div class="container-fluid">
@@ -671,23 +679,143 @@
         <h3 class="text-light">IMDb Originals</h3>
         <h6 class="text-light">Celebrity interviews, trending entertainment stories, and expert analysis</h6>
       </div>
-     <div class="row">
+      <div class="row">
+        <!-- img1 -->
+        <div class="col-sm-12 col-md-4">
+      <div class="nav-link exclusive">
+      <a href="#">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./Assets/Images/aa fight scene.jpg" alt="">
+        </div>
+        <div class="text-light d-flex justify-content-center align-items-center play">
+          <span>
+            <i class="bi bi-play-circle fw-bold me-2 fs-3"></i>
+          </span>
+          <span>
+            2:34
+          </span>
+        </div>
+      </a>
+      <div class="mt-1 text-light ">
+        <div>
+          <a class="nav-link mt-1 " href="#">
+            Watch AA's fight scene
+          </a>
+        </div>
+        <div>
+          <a class="nav-link mt-1 text-primary" href="#">
+            Watch now
+          </a>
+        </div>
+        <div class="mt-2 text-light">
+          <span><i class="bi bi-hand-thumbs-up me-1"></i>55.8k</span>
+          <span><i class="bi bi-heart-fill text-danger me-1"></i>90k</span>
+        </div>
+      </div>
+      </div>
+        </div>
+        <!-- img1 ends -->
 
-     </div>
+        <!-- img2 -->
+        <div class="col-sm-12 col-md-4">
+          <div class="nav-link exclusive">
+          <a href="#">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="./Assets/Images/onepiece scene.jpg" alt="">
+            </div>
+            <div class="text-light d-flex justify-content-center align-items-center play">
+              <span>
+                <i class="bi bi-play-circle fw-bold me-2 fs-3"></i>
+              </span>
+              <span>
+                2:50
+              </span>
+            </div>
+          </a>
+          <div class="mt-1 text-light ">
+            <div>
+              <a class="nav-link mt-1 " href="#">
+                Wanna find onepiece with us..
+              </a>
+            </div>
+            <div>
+              <a class="nav-link mt-1 text-primary" href="#">
+                Watch now
+              </a>
+            </div>
+            <div class="mt-2 text-light">
+              <span><i class="bi bi-hand-thumbs-up me-1"></i>156k</span>
+              <span><i class="bi bi-heart-fill text-danger me-1"></i>678k</span>
+            </div>
+          </div>
+          </div>
+            </div>
+            <!-- img2 ends -->
+
+            <!-- img3 -->
+        <div class="col-sm-12 col-md-4">
+          <div class="nav-link exclusive">
+          <a href="#">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="./Assets/Images/shinchan ep.jpg" alt="">
+            </div>
+            <div class="text-light d-flex justify-content-center align-items-center play">
+              <span>
+                <i class="bi bi-play-circle fw-bold me-2 fs-3"></i>
+              </span>
+              <span>
+                3:01
+              </span>
+            </div>
+          </a>
+          <div class="mt-1 text-light ">
+            <div>
+              <a class="nav-link mt-1 " href="#">
+                Who wins Sword or Shield?
+              </a>
+            </div>
+            <div>
+              <a class="nav-link mt-1 text-primary" href="#">
+                Watch now
+              </a>
+            </div>
+            <div class="mt-2 text-light">
+              <span><i class="bi bi-hand-thumbs-up me-1"></i>34k</span>
+              <span><i class="bi bi-heart-fill text-danger me-1"></i>256k</span>
+            </div>
+          </div>
+          </div>
+            </div>
+            <!-- img3 ends -->
+      </div>
      </div>
      <!-- originals ends -->
 
+
+     <!-- box office -->
      <div class="container-fluid mt-5">
       <div class="d-flex text-light fw-bold align-items-center">
-        <img class="bar-height" src="./assets/svg/bar.svg" alt="">
+        <img class="bar-height" src="./Assets/SVG/stroke.svg" alt="">
         <h4> Top Box Office (US)</h4>
       </div>
       <div class="text-light">
         <p>Weekend of March 28-30</p>
       </div>
 
-    </div>
+      <!-- <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="parent d-flex justify-content-between ">
+            <div class="child"> 
+            </div>
+            <div class="child"><i class="bi bi-ticket-fill text-primary transform"></i>
+            </div>
+           
+          </div>
+        </div>
+      </div> -->
 
+    </div>
+<!--box office ends -->
 
 
 
